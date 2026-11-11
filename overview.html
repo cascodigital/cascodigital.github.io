@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Casco Digital — Open Source Engineering Overview</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      min-height: 100vh;
+      background: #070a10;
+      color: #edf2f7;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 24px;
+    }
+    .wrap {
+      width: 100%;
+      max-width: 1120px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .hdr {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .title {
+      font-size: 18px;
+      font-weight: 700;
+      color: #60a5fa;
+      text-decoration: none;
+    }
+    .links {
+      display: flex;
+      gap: 16px;
+      font-size: 14px;
+    }
+    .links a {
+      color: #94a3b8;
+      text-decoration: none;
+    }
+    .links a:hover { color: #fff; }
+    video {
+      width: 100%;
+      border-radius: 12px;
+      border: 1px solid #24324a;
+      background: #000;
+      box-shadow: 0 24px 60px rgba(0,0,0,0.75);
+    }
+    .foot {
+      font-size: 13px;
+      color: #64748b;
+      text-align: center;
+    }
+    .foot a { color: #94a3b8; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hdr">
+      <a class="title" href="https://github.com/cascodigital">&larr; github.com/cascodigital</a>
+      <div class="links">
+        <a href="https://cascodigital.com.br">cascodigital.com.br</a>
+        <a href="https://github.com/cascodigital">All Repositories</a>
+      </div>
+    </div>
+    <video src="overview.mp4" poster="overview-poster.jpg" controls autoplay playsinline></video>
+    <div class="foot">
+      Built from live repository UIs and documentation using <a href="https://github.com/latent-spaces/brag">latent-spaces/brag</a>.
+    </div>
+  </div>
+</body>
+</html>
